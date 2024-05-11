@@ -1,0 +1,35 @@
+.chop-hero {
+    margin: auto;
+    width: 50%;
+}
+
+.chop-container {
+    max-width: 80%;
+    margin: 50px auto;
+}
+.threat {
+    color: #fff;
+    font-size: 70px;
+    margin-top: 20px;
+    font-family: "Comic Sans MS";
+}
+
+body {
+    background-color: #ec4c9a;
+    text-align: center;
+
+}
+
+@media (max-width: 768px) {
+    .chop-hero {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .threat {
+        font-size: 30px;
+    }
+    .chop-container {
+        margin: 0;
+        max-width: 100%;
+    }
+}
